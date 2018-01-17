@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Савин](https://up.htmlacademy.ru/adaptive/13/user/539391).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Сигов] (https://htmlacademy.ru/profile/crazer).
 
 ---
 
