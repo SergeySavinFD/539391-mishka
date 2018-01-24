@@ -39,16 +39,16 @@
   <main class="form-main">
 
     <div class="form-main__title-box">
-      <h1 class="main__title">Каталог товаров</h1>
+      <h1 class="form-main__title main-title">Каталог товаров</h1>
     </div>
 
     <section class="form-main__filters">
       <p class="form-main__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму
         заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
-      <form class="filter" action="https://echo.htmlacademy.ru" method="get">
-        <fieldset class="filter__list">
+      <form class="filters" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset class="filters__list">
           <legend>тип</legend>
-          <ul class="filter__type filter">
+          <ul class="filters__type filter">
             <li class="filter__interior">
               <input class="visually-hidden filter__radio" type="radio" name="type-group"
                 value="interior-type" id="it" checked>
@@ -61,9 +61,9 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="filter__list">
+        <fieldset class="filters__list">
           <legend>цвет</legend>
-          <ul class="filter__color filter">
+          <ul class="filters__color filter">
             <li class="filter__white">
               <input class="visually-hidden filter__checkbox" type="checkbox" name="white"
                 id="filter-white" checked>
@@ -96,9 +96,9 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="filter__list">
+        <fieldset class="filters__list">
           <legend>фио</legend>
-          <ul class="filter__info info">
+          <ul class="filters__info info">
             <li class="info__name">
               <input id="user-name" type="text" name="username" placeholder="Введите ваше имя*" required>
               <label for="user-name">Имя:</label>
@@ -113,21 +113,21 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="filter__tel">
+        <fieldset class="filters__tel">
           <legend>тел</legend>
           <input type="tel" required name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}"
             placeholder="+7 XXX XX XX*" required>
         </fieldset>
-        <fieldset class="filter__mail">
+        <fieldset class="filters__mail">
           <legend>e-mail</legend>
           <input id="email-id" type="email" name="email" placeholder="Ваш Email*" required>
         </fieldset>
-        <fieldset class="filter__dop">
+        <fieldset class="filters__dop">
           <legend>доп</legend>
           <textarea id="review" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
         </fieldset>
-        <p class="filter__star">*Поля обязательны для заполнения</p>
-        <a class="filter__button button" href="#">отправить заказ</a>
+        <p class="filters__star">*Поля обязательны для заполнения</p>
+        <a class="filters__button button" href="#">отправить заказ</a>
       </form>
     </section>
   </main>
